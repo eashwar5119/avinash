@@ -9,7 +9,11 @@ h3={a: 1, b: 2, c: {x: 10, y: 20}, d: 4}
 h4={a: 1, b: 2, c: {x: {state: 'TX', country: 'USA'}, y: 20}, d: 4, e: {f: {g: {k: 'end'}}}}
 #puts h4.values
 
+h3={a: 1, b: 2, c: {x: 10, y: 20}, d: 4}
+#puts h3.values
 
+h4={a: 1, b: 2, c: {x: {state: 'TX', country: 'USA'}, y: 20}, d: 4, e: {f: {g: {k: 'end'}}}}
+#puts h4.values
 
 
 def recur (h, array=[])
